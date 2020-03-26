@@ -28,4 +28,4 @@ Omly on Master:
 	
 	for coredns pods to come up run below
 		kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/2140ac876ef134e0ed5af15c65e414cf26827915/Documentation/kube-flannel.yml
-       for calico use below command:
+       for calico use this command: kubectl apply -f https://docs.projectcalico.org/v3.9/manifests/calico.yaml
